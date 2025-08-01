@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+
 import { TrendingUp, TrendingDown, Target, BarChart3 } from 'lucide-react';
 import { calculateAverage } from '@/lib/utils';
 
